@@ -84,8 +84,8 @@ A quick look at the top-level files and directories included with this template.
 <p>go to <b>directory .storybook/main.ts</b> to configure the path for including <b>stories and addons</b></p>
 
 <h2>Container Elements Example and Nesting</h2>
-<p>We can not use <b>pure-inbox-screen component</b> in the storybook<br/>
-because it contains <b>task-list component</b> which needs data from the (ngxs store/NgRx store) <br />
+<p>We can not use <b>pure-inbox-screen component (Presentational Component)</b> in the storybook<br/>
+because it contains <b>task-list component (Container Element)</b> which needs data from the (ngxs store/NgRx store) <br />
 in this case we supply the store in the <b>pure-inbox-screen.stories.ts with:
 <code>
 <pre>
